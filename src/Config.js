@@ -8,10 +8,7 @@ const getRequestToken = () => {
   sha1 = sha1(now + "vimkes");
   return sha1;
 };
-//  const BaseUrl = 'https://www.demo1.azacus.co.in/';
- //const BaseUrl = 'https://www.demo1.azacus.co.in/';
-//const BaseUrl = 'http://162.220.165.182:3035/';
-//  const BaseUrl = 'http://162.220.165.182:3020/Buskes/';
+
 // const BaseUrl = 'http://192.168.43.14:8080/';
 
 
