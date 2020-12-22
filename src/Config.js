@@ -9,11 +9,10 @@ const getRequestToken = () => {
   return sha1;
 };
 
-// const BaseUrl = 'http://192.168.43.14:8080/';
 
 
- const BaseUrl = 'https://www.asz.azacus.co.in/';
-// const BaseUrl = "http://192.168.1.7:8080/";
+
+
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
