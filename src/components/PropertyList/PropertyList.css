@@ -1,0 +1,149 @@
+#Property_padding
+{
+padding: 40px 0px;
+}
+
+
+.Property_SidnavCard
+{
+  
+    padding: 15px;
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 17px 0 rgba(0,0,0,.08);
+    border: solid 1px #efefef;
+    width: 100%;
+    display: inline-block;
+}
+.Property_Sidnav .form-control
+{
+    margin-bottom: 10px;
+}
+.SideNav_Title
+{
+    padding: 10px 0px;
+}
+.SideNav_Title h6
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #de3c7a;   
+}
+
+.Property_Border .form-control
+{
+    border: 0px;
+}
+.padding_top_common
+{
+    padding: 20px 0px;
+}
+
+.Property_Card_Image img
+{
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+.Property_Card_Image
+{
+    position: relative;
+}
+
+.Property_Card_Image:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.4);
+    border-radius: 10px;
+  }
+.Property_Card_Image:hover img
+{
+    /* transform: scale(1.2); */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Property_Card_Content .title{
+    font-size: 18px;
+    color: #de3c7a; 
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.Property_Card_Content .location{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.Property_Card_Wrapper
+{
+    padding: 10px;
+}
+.text_overlay
+{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+}
+.text_overlay h6{
+    color: white;
+    padding: 3px 10px;
+    background-color: #EFA421;;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.Property_Card
+{
+  
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 17px 0 rgba(0,0,0,.08);
+    border: solid 1px #efefef;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+.Property_Card_Amount
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    align-items: center;
+}
+.Property_Card_Amount span{
+    color: #fc4250;
+}
+.fa-map-marker
+{
+    color: #EFA421;
+    font-size: 25px;
+   
+}
+
+.fa-star
+{
+    color: #EFA421;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.Property_Card_Description
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Property_Filter_Section
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

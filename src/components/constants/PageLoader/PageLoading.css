@@ -1,0 +1,19 @@
+.animation_View
+{
+   
+    overflow: hidden;
+    margin: 0px auto;
+    outline: none;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+    z-index: 1;
+    background-color: #ccc0c0;
+}
+.animation_View_parent
+{
+    position: relative;
+   
+}

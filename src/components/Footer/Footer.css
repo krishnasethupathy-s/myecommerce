@@ -1,0 +1,284 @@
+.Main_Container
+{
+    display: flex;
+    flex-direction: row;
+}
+.Circle_Container
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+  border: 1px solid #89c74a;
+}
+.Icon_Container
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.Padding_left
+{
+    padding-left: 10px;
+}
+.Main_Container h6{
+    color: #89c74a;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    padding: 10px 0 0;
+}
+.Main_Container p{
+    font-size: 13px;
+    line-height: 22px;
+    color: white;
+}
+
+/* Footer Details */
+
+/* Logo Section */
+.Logo_Size
+{
+  height: 40px;
+}
+
+/* End Logo Section */
+
+
+
+
+
+
+
+
+.Footer_App_Image_Section
+{
+    display: flex;
+    padding-bottom: 20px;
+}
+.Footer_App_Image_Section img {
+    height: 32px;
+    margin: 0 11px 0 0;
+}
+/* copywrites section */
+
+.Copy_right_Last_Section
+{
+   padding: 20px 0px 0px 0px;
+}
+
+
+
+
+
+
+footer {
+    background: #000;
+    border-top: #efefef solid 1px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+/* footer:after {
+    content: '';
+    background: url('../../assets/footer/pattern-white') repeat left top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .1;
+    z-index: -1;
+} */
+.overView h5 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-family: SourceSansPro-Semibold;
+    display: block;
+}
+
+.overView ul li a {
+    display: inline-block;
+    color: #fff;
+}
+
+footer .overView ul li {
+    display: block;
+    line-height: 25px;
+    color: #fff;
+}
+footer .overView ul li a {
+    display: inline-block;
+    color: #fff;
+}
+
+footer .overView ul.connectWithUs {
+    display: block;
+}
+footer .overView ul {
+    display: block;
+}
+
+footer .overView ul li {
+    display: block;
+    line-height: 25px;
+    color: #fff;
+}
+footer .overView ul.connectWithUs li .box {
+    margin-bottom: 20px;
+    display: block;
+    color: #fa1321;
+    line-height: 15px;
+}
+.Social_Icons_Container
+{
+    display: flex;
+}
+.Social_Icons_Container .fa
+{
+font-size: 25px;
+}
+.Social_Icons_Container ul
+{
+display: flex !important;
+}
+.Social_Icons_Container li
+{
+padding-right: 10px;
+}
+
+.Footer_About_Section
+{
+    padding: 40px 0;
+    display: block;
+    border-top: #232323 solid 1px;
+
+}
+
+.Footer_About_Section h5 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-family: SourceSansPro-Semibold;
+    display: block;
+}
+.Footer_About_Section p {
+    color: #fff;
+}
+
+footer .ourPresence {
+    padding: 40px 0 20px;
+    display: block;
+    border-top: #232323 solid 1px;
+}
+
+footer .ourPresence h5 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-family: SourceSansPro-Semibold;
+    display: block;
+}
+footer .ourPresence h6 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-family: SourceSansPro-Semibold;
+    display: block;
+}
+
+footer address {
+    position: relative;
+    font-style: inherit;
+    overflow: hidden;
+}
+footer address ul {
+    display: block;
+}
+
+footer address:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #232323;
+}
+
+footer address ul li:first-child {
+    padding: 0 15px 0 0;
+    float: left;
+}
+footer address ul li {
+    padding: 0 0 0 15px;
+    display: block;
+    float: right;
+    background: #000;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+
+footer .addressList.indianCity {
+    padding-bottom: 15px;
+    border-bottom: #232323 solid 1px;
+}
+footer .addressList {
+    padding-top: 20px;
+    display: block;
+}
+
+footer .ourPresence h5 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-family: SourceSansPro-Semibold;
+    display: block;
+}
+footer .addressList ul {
+    display: block;
+}
+footer .addressList ul li {
+    position: relative;
+    width: 14%;
+    display: inline-block;
+    line-height: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+ @media only screen and (min-width: 360px) and (max-width: 640px) {
+    .Main_Container {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer_Main_Details_Mobile_View
+    {
+        text-align: center;
+    }
+    .Footer_Main_Logoa_Mobile
+    {
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+    .Footer_App_Image_Section {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .Social_Icons_Container {
+        display: flex;
+        justify-content: center;
+    }
+    
+ }
+

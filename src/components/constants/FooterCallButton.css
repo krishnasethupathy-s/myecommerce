@@ -1,0 +1,105 @@
+
+.intercom {
+    padding: 12px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efa421;
+    color: #fff;
+    z-index: 3;
+    opacity: 1;
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,.24);
+    transition: .5s;
+    cursor: pointer;
+}
+.navPanel {
+    position: fixed;
+    bottom: -1000px;
+    right: -1000px;
+    width: 360px;
+    height: 360px;
+    background: rgba(0,0,0,.8);
+    border-radius: 50%;
+    z-index: 3;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .5s;
+}
+.navPanel.active {
+    bottom: -140px;
+    right: -140px;
+    transition: .5s;
+}
+.navPanel .link1 {
+    left: 148px;
+    top: 18px;
+}
+.navPanel .link2 {
+    left: 65px;
+    top: 52px;
+}
+.navPanel .link3 {
+    left: 20px;
+    top: 132px;
+}
+.navPanel .link {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.navPanel .link figure {
+    padding: 15px;
+    background: #fff;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: block;
+}
+.navPanel .link figure img {
+    width: 100%;
+}
+.navPanel .link span {
+    margin-top: 3px;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+}
+.intercom.active, .intercomCloseBtn.active {
+    opacity: 1;
+    z-index: 3;
+    transition: .5s;
+}
+
+
+.intercomCloseBtn {
+    padding: 10px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efa421;
+    color: #fff;
+    z-index: 2;
+    opacity: 0;
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,.24);
+    transition: .5s;
+    cursor: pointer;
+}
+.intercomCloseBtn.active {
+    background: #646464;
+    border: solid 1px #4d4d4d;
+}

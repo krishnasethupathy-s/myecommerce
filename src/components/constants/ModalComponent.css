@@ -1,0 +1,68 @@
+.Destination_Unorder_List_Background
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px 0px;
+}
+
+.Destination_Unorder_List_Background li{
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.04);
+    border: solid 1px #ededed;
+    background-color: #fff;
+    height: 43px;
+    padding: 0 15px 0 10px;
+    align-items: center;
+    display: flex;
+}
+.modal-title {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.modal-body h6
+{
+    padding-bottom: 10px;
+    color: black;
+    font-weight: 600;
+}
+.Modal_Address_Input
+{
+    border-radius: 5px !important;
+    padding-bottom: 10px;
+}
+.Modal_Submit_Container button
+{
+    font-size: 18px;
+    width: 100%;
+    font-family: SourceSansPro-Semibold;
+    color: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+    border-radius: 3px;
+    background-color: #CB2027;
+    line-height: 30px;
+    border: none;
+}
+
+
+ /* Inner Nav Media query */
+ @media only screen and (min-width: 360px) and (max-width: 640px) {
+    .Destination_Unorder_List_Background
+    {
+        display: unset;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .modal-body h6
+    {
+        padding-bottom: 20px;
+    }
+    .Destination_Unorder_List_Background li{
+       margin-bottom: 5px;
+    }
+    
+   }

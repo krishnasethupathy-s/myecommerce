@@ -1,0 +1,11 @@
+.Hiring_Button:hover {
+    color: white !important;
+    background-color: black !important;
+    border-color:  #fc4250;
+  }
+  
+  .Hiring_Button {
+    color: #fff ;
+    background-color: #fc4250;
+    border-color:  #fc4250;
+  }

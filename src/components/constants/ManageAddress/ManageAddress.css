@@ -1,0 +1,9 @@
+.Manage_footer_container
+{
+    flex: 1;
+    justify-content: flex-end;
+}
+.Address_Details_Type
+{
+    padding-bottom: 10px;
+}

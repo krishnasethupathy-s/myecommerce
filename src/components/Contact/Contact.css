@@ -1,0 +1,178 @@
+
+.Inner_nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Inner_nav li {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+  }
+  .Inner_nav li a {
+    color: white !important;
+}
+#ForgetPassword_Main_Section .jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #fc4250;
+    border-radius: .3rem;
+}
+#ForgetPassword_Main_Section h4{
+    color: white;
+    font-family: Lemonada;
+    font-weight: bold;
+}
+.Contact_Form_Section
+{
+  text-align: center;
+  padding: 2rem;
+  margin: 1rem;
+}
+.Contact_Form_Section h3{
+  font-family: Lemonada;
+  padding-bottom: 10px;
+}
+.Contact_Form_Section p{
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+
+.form-control:focus {
+    color: #495057 !important;
+    background-color: #fff !important;
+    border-color: unset !important;
+    outline: 0 !important;
+    box-shadow: unset !important;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #727a84;
+  border-color: #fc4250;
+}
+
+
+.Cancel_Text
+{
+  padding-top: 20px;
+  font-family: Lemonada;
+  cursor: pointer;
+  color:  #171b20!important;
+  padding-top: 20px;
+}
+
+
+/* Address Details */
+#Address_Section
+{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.Address_Section_InnerContainer
+{
+  border: 1px solid #fc4250 ;
+    padding: 13px;
+    margin: 20px;
+    height: 210px;
+}
+.Address_Section_InnerContainer:hover
+{
+border: 1px solid  #171b20;
+cursor: pointer;
+padding: 13px;
+margin: 20px;
+}
+.Icon_Container:hover 
+{
+    background:#171b20 !important;
+  
+}
+#Address_Section .Icon_Container
+{
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+    color: #ffffff;
+    background: #fc4250;
+}
+.Address_Section_InnerContainer h4{
+    font-family: Lemonada;
+    font-size: 15px;
+    color: #fc4250 ;
+}
+
+
+
+/* End Address Details */
+
+/* Media Query */
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .Contact_Form_Section
+{
+  text-align: center;
+  padding:20px;
+  margin: 0px;
+}
+.Address_Section_InnerContainer {
+    border: 1px solid #fc4250;
+    padding: 13px;
+    margin: 9px;
+    height: 210px;
+}
+.Address_Section_InnerContainer {
+    border: 1px solid #fc4250;
+    padding: 13px;
+    margin: 9px;
+    height: 210px;
+}
+#Address_Section {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
+
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .Contact_Form_Section
+{
+  text-align: center;
+  padding:20px;
+  margin: 0px;
+}
+.Contact_Form_Section h3 {
+  font-family: Lemonada;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.SignIn_Form_Section {
+  text-align: center;
+  /* padding: 3rem; */
+  /* margin: 3rem; */
+}
+.Address_Section_InnerContainer {
+    border: 1px solid #fc4250;
+    padding: 13px;
+    margin: 9px;
+    height: 210px;
+}
+#Address_Section {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
+
+
+}

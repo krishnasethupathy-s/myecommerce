@@ -1,0 +1,1128 @@
+body, p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+}
+
+body, ul, ol, li, h1, h2, h3, h4, h5, h6, figure, p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body {
+    background: #f6f8f9;
+    overflow: hidden;
+    overflow-y: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+ 
+}
+a,h1,h2,h3,h4,h5,h6,p
+{
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+/* unorder */
+.unorder_List span , strong{
+    color:white !important;
+}
+
+
+/* Unorder */
+
+/* Banner Section */
+.Banner_Section
+{
+    background-image: url('../../assets/HomepageBackground/background.webp');
+    height: 80vh;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.searchBox {
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    position: relative;
+   
+}
+.form-control {
+    border-radius: 0px !important;
+    color: black !important;
+    border: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+.Budget_Option{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+
+}
+.form-control:hover{
+    cursor: pointer;
+}
+.Search_bar_Main_Container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.searchBox .dropdown 
+{
+    background-color: white !important;
+}
+.Dropdown_Width
+{
+    width: 10%;
+}
+.Input_Width
+{
+    width: 60%;
+}
+.Button_Width_HomePage
+{
+    width: 10%;
+    text-align: center;
+}
+.btn-outline-primary {
+    color: #ffffff !important;
+    border-color: #fc4250 !important;
+}
+.form-inline .form-control {
+    
+    width: none !important;
+  
+}
+.dropdown-menu
+{
+    padding-right: 20px;
+    font-size: 14px;
+}
+.Dropdown_Width .Dropdown_Color a
+{
+    color: black !important;
+}
+
+.Budget_dropdown
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 3;
+}
+.homeTabBox {
+ 
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.homeTabBox ul {
+    padding: 0 10px 10px 10px;
+    display: block;
+    height: 75px;
+}
+.homeTabBox ul li {
+    padding: 10px 15px;
+    margin-right: 5px;
+    display: inline-block;
+    background: rgba(0,0,0,0.6);
+    border-radius: 8px;
+    color: #fff;
+  
+    width: 150px;
+    height: 68px;
+    text-align: left;
+    font-size: 16px;
+    border: #727272 solid 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.homeTabBox ul li.active {
+    background: #EFA421;
+    border: #EFA421 solid 1px;
+    border-radius: 5px 5px 0 0;
+    cursor: default;
+    box-shadow: 0 3px 17px 0 rgb(238 164 34);
+}
+.homeTabBox .Arrow:before {
+    content: '\e91c';
+    color: #fff;
+    font-size: 12px;
+    font-family: icomoon;
+    position: absolute;
+    top: 0;
+    right: 7px;
+    opacity: 1;
+    width: auto;
+    background: none;
+    left: inherit;
+    transform: rotate(-45deg);
+}
+
+.homeTabBox ul li.active::after {
+    bottom: -14px;
+    transition: .3s;
+    opacity: 1;
+    box-shadow: 0 3px 17px 0 rgb(238 164 34);
+}
+
+.homeTabBox ul li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: 16px;
+   background: #EFA421;
+    border-radius: 0 0 5px 5px;
+    transition: .3s;
+    opacity: 0;
+}
+/* End Banner Section */
+
+/* Chennai_Real_Estate */
+
+#Chennai_Real_Estate
+{
+    background-color: #CB2027;
+}
+#Chennai_Real_Estate{
+    display: block;
+    text-align: center;
+}
+#Chennai_Real_Estate h1{
+display: block;
+font-size: 28px;
+font-weight: bold;
+color: #000;
+font-family: SourceSansPro-Semibold;
+}
+
+#Chennai_Real_Estate p {
+    padding-top: 15px;
+    display: block;
+    font-size: 17px;
+    color: #666;
+}
+
+#Chennai_Real_Estate  figure {
+    width: 50px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+#Chennai_Real_Estate .tile
+{
+    padding: 50px 0px;
+
+}
+#Chennai_Real_Estate .tile h2 {
+    padding-top: 10px;
+    display: block;
+    color: #efa421;
+    font-size: 18px;
+    text-align: center;
+    font-family: SourceSansPro-Semibold;
+    font-weight: bold;
+}
+#Chennai_Real_Estate .tile h2 a{
+    padding-top: 10px;
+    display: block;
+    color: #efa421;
+    font-size: 18px;
+    text-align: center;
+    font-family: SourceSansPro-Semibold;
+    font-weight: bold;
+}
+.Real_estate_light_background_first
+{
+    background-color: #8a4a4c52;
+}
+
+.Real_estate_light_background_second
+{
+    background-color: #b13a3d6b;
+}
+
+#Chennai_Real_Estate .tile p {
+    padding: 10px 0 15px;
+    display: block;
+    color: white;
+    font-size: 14px;
+}
+
+.Real_estate_Icon_section
+{
+    display: flex;
+   
+}
+
+
+
+/* End Chennai_Real_Estate */
+
+
+/*  */
+
+/* service */
+
+
+
+.Speacial_Details_Section ul {
+    padding: 20px;
+    margin: 0 20px;
+    display: inline-block;
+    background: rgba(0,0,0,0.5);
+    border-radius: 8px;
+    height: 100px;
+    width: calc(100% - 40px);
+    text-align: center;
+}
+/* End Service */
+
+
+
+/* Property Tab */
+
+#Property_section
+{
+    min-height: 500px;
+    overflow: hidden;
+    background: #f8f8f8;
+    padding: 50px 0!important;
+}
+#Property_section h2 {
+    /* padding-bottom: 30px; */
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.sub_headings_underling
+{
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 0;
+    color: #EFA421;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.sub_headings_underling::before
+{
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50px;
+    height: 1px;
+    margin-top: -1px;
+    background-color: #EFA421;
+
+
+}
+.sub_headings_underling:after {
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50px;
+    height: 1px;
+    margin-top: -1px;
+    background-color: #EFA421;
+}
+.Propery_Section_Tab_Section
+{
+ padding: 40px 0px;   
+}
+.Propery_Section_Tab_Section .nav-tabs {
+    border-bottom: 0px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+
+ .nav-tabs .nav-link.active {
+  color: #CB2027 ;
+  border-bottom: 2px solid#EFA421 !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+.nav-tabs .nav-link {
+  border: unset;
+  color:  black;
+} 
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #CB2027 ;
+    background-color: unset;
+    border-color: unset;
+}
+.nav-tabs a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* 
+.Property_Section_Card img
+{
+    width: 120px;
+} */
+
+.card
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
+.card-title {
+    margin-top: 10px;
+    color: #000;
+    font-size: 15px;
+    /* line-height: 20px; */
+    font-family: SourceSansPro-Semibold;
+    font-weight: 900;
+  
+}
+
+.card-title p {
+    font-size: 14px;
+line-height: 22px;
+color: #666;
+padding-top: 7px;
+}
+.View_All_Card_Button
+{
+    color: #080808;
+    background-color:white;
+    border-color: #000000;
+}
+.View_All_Card_Button:hover{
+    background-color: black;
+    color: white;
+}
+.Card_Slider_Section
+{
+    width: 96%;
+}
+.Card_Slider_Section{
+    height: 380px;
+}
+.Property_Section_Card .card
+{
+    height: 380px;
+}
+.card-img-top
+{
+    height: 160px;
+}
+/* .Card_Slider_Section  img{
+    height: 150px;
+} */
+.Card_Slider_Section h5{
+    font-size: 16px;
+    font-family: SourceSansPro-Semibold;
+    color: #000;
+    white-space: nowrap;
+}
+.Card_Slider_Section_Developer{
+  margin-bottom: 10px;
+  width: 96%;
+}
+.Card_Slider_Aligment {
+    display: flex;
+    align-items: center;
+  }
+
+.Card_Slider_Section_Developer  img{
+    height: 100px;
+}
+.Card_Slider_Section_Developer   h5{
+    font-size: 16px;
+    font-family: SourceSansPro-Semibold;
+    color: #000;
+    white-space: nowrap;
+}
+.Card_Slider_Section_Developer
+{
+    border-radius: 20px !important;
+}
+small {
+    font-size: 100%;
+}
+
+
+ .price {
+    font-size: 14px;
+    font-family: SourceSansPro-Semibold;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+ .status {
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+}
+
+ .status p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.status .progressBar {
+    display: block;
+    height: 5px;
+    background: #f1f1f1;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.progressBar span
+{
+    width: 100%;
+}
+.status .progressBar span {
+    height: 5px;
+    background: #ffb100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+
+.propertyType ul {
+    display: block;
+}
+
+ .propertyType ul li {
+    padding: 0 10px;
+    font-family: SourceSansPro-Semibold;
+    font-size: 12px;
+    color: #000;
+  
+    border-left: #e5e5e5 solid 1px;
+}
+
+.Card_Slider_Card_Button_Container
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.Card_Slider_Squared_Section
+{
+    background-color: #5e459a;
+    width: 24%;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+.Card_Slider_Squared_Section h6{
+    color: white;
+}
+.Green_button
+{
+    background: #CB2027;
+    color: #fff;
+    border: #CB2027  solid 1px;
+    font-size: 16px;
+    /* width: 50%; */
+    opacity: 0.8;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #EFA421;
+    border-color: #EFA421;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #d54d52;
+    border-color: #fc4250;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow:none;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #000000;
+    border-color: #fc4250;
+}
+
+.Gray_button
+{
+    background: #eaeaea;
+    color: #000;
+    border: #eaeaea solid 1px;
+    transition: .5s;
+    font-size: 15px;
+}
+
+ .slick-next
+{
+   
+    position: absolute;
+  
+    right: 10px !important;
+    width: 45px  !important;
+    height: 45px  !important;
+    border-radius: 50%;
+    background: #fc4250 !important;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.16)  !important;
+}
+
+.slick-prev{
+ 
+    z-index: 99;
+    width: 45px  !important;
+    height: 45px  !important;
+    border-radius: 50%;
+    background: #fc4250 !important;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.16)  !important;
+}
+
+/* End Property Tab */
+
+/* Expolor Section */
+
+#exploreOurTools {
+    padding: 50px 0 30px;
+    background: #000;
+    color: #fff;
+    min-height: 445px;
+    position: relative;
+}
+
+#exploreOurTools h2{
+    padding-bottom: 30px;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#exploreOurTools  .nav-tabs {
+    border-bottom: unset;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+#exploreOurTools .nav-link
+{
+    color: white !important;
+}
+
+#exploreOurTools  h3 {
+    padding: 30px 0;
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#exploreOurTools   p {
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #fff;
+}
+/* Expolor Section */
+
+
+/* Resale Section */
+#Resale {
+    padding: 50px 0 30px;
+    background:gainsboro;
+    color: #fff;
+    min-height: 445px;
+    position: relative;
+}
+
+#Resale h2{
+    padding-bottom: 30px;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+        text-transform: capitalize;
+}
+
+#Resale  .nav-tabs {
+    border-bottom: unset;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+#Resale .nav-link
+{
+    color:black;
+}
+
+#Resale  .nav-tabs .nav-link.active {
+    color: white !important;
+    border: solid 1px #5f449b;
+    background: #5f449b;
+    border-radius: 20px;
+    border-bottom: unset !important;
+}
+.Resale_Properties_Categories h6{
+    color:black ;
+    text-align: center;
+}
+.Resale_Properties_Categories
+{
+    padding: 20px;
+}
+.Resale_Properties_Card_Section
+{
+    padding: 0 15px;
+    margin: 10px;
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 17px 0 rgba(0,0,0,.08);
+    border: solid 1px #efefef;
+    height: 150px;
+    width: 100%;
+    display: inline-block;
+}
+.Resale_Properties_First_Description 
+{
+    display: flex;
+    padding-top: 10px;
+}
+.Resale_Properties_First_Description h6
+{
+    padding-right: 20px;
+}
+.Resale_Properties_Card_Section img{
+    border-radius: 10px;
+}
+.Resale_Properties_First_Description .Reindetal_Text
+{
+ color: #de3c7a;   
+}
+.Resale_Property_Image_Main_Section
+{
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+}
+.Resale_Property_Image_Main_Section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.border_underline:hover{
+    cursor: pointer;
+    color: red !important;
+}
+#Resale_InnerScroll
+{
+    margin-top: 70px;
+}
+#Rent_InnerScroll
+{
+    margin-top: 70px;
+
+}
+#New_InnerScroll
+{
+    margin-top: 70px;
+}
+
+
+.border_underline{
+padding-bottom: 12px;
+}
+.border_underline::after
+{
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 0.125rem;
+   left: 0;
+   bottom: 0;
+   background-color:  #de3c7a;   
+   transform: scale(0,1);
+   transition: transform .5s ease;
+   cursor: pointer;
+   
+}
+
+.Active_Class
+{
+    color: red !important;
+   
+}
+.Active_Class::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.125rem;
+    left: 0;
+    bottom: 0;
+    background-color:  #de3c7a;   
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+.border_underline:hover::after
+{
+   transform: scale(1,1);
+}
+
+/* End Resale Section */
+
+/* Resalet Rent Section */
+.Resale_Rent_Section
+{
+    background-color: white !important;
+}
+#Rent {
+    padding: 50px 0 30px;
+    background:gainsboro;
+    color: #fff;
+    min-height: 445px;
+    position: relative;
+}
+
+#Rent h2{
+    padding-bottom: 30px;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+        text-transform: capitalize;
+}
+
+#Rent  .nav-tabs {
+    border-bottom: unset;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+#Rent .nav-link
+{
+    color:black;
+}
+
+#Rent  .nav-tabs .nav-link.active {
+    color: white !important;
+    border: solid 1px #5f449b;
+    background: #5f449b;
+    border-radius: 20px;
+    border-bottom: unset !important;
+}
+
+/* Resale Rend Section */
+
+/* InterCom Section */
+
+/* End InterCom Section */
+
+
+
+/* testimonial-heading-section */
+#testimonial-main-section
+{
+    background: #f8f9fa;
+    padding: 60px 0px;
+    position: relative;
+}
+#testimonial-main-section h2
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 30px;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#testimonial-main-section .slick-prev
+    {
+display: none !important;
+    }
+    #testimonial-main-section .slick-next
+    {
+        display: none !important;
+    }
+
+    .testimonial-card
+    {
+        display: block;
+        position: relative;
+        background: #fff;
+        padding: 20px;
+        border: 1px solid rgba(0,0,0,.02);
+        box-shadow: 0 5px 21px -14px rgba(0,0,0,.14);
+        margin: 5px;
+      
+    }
+    .testimonial-image
+    {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        margin: 0 auto;
+        overflow:hidden;
+        padding-bottom: 15px;
+        -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+        box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+        border-radius: 50%;
+    }
+    .testimonial-card img{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     object-fit: cover; 
+     max-width: 170px;
+    }
+ 
+    .testimonial-text{
+    padding:10px 0px;
+    text-align: center;
+    position: relative;
+       }
+
+     .testimonial-text p{
+        font-size: 16px;
+           }
+.testimonial-content h4, .testimonial-content h6{
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+.testimonial-heading-section
+{
+  padding-top: 30px;  
+}
+/* 
+.Twitter-container
+{
+    width: 500px;
+    height: 300px;
+    overflow-y: scroll;
+} */
+/* 
+.Twitter-container
+{
+   
+    height: 450px;
+    width: 100%;
+    overflow-y: scroll;
+}  */
+
+/* testimonial-heading-section */
+
+/* Media Query */
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+
+    .Real_estate_Icon_section
+    {
+        display: unset;
+        padding: 50px 0px;
+    }
+    .Banner_Section {
+     
+        height: 50vh;
+        background-size: 100% 100%;
+    }
+    .slick-next
+    {
+        display: none !important;
+    }
+    
+.slick-prev{
+    display: none !important;
+}
+
+.Resale_Properties_Card_Section {
+    height: 150px;
+   
+}
+
+.Card_Slider_Section_Developer 
+{
+    width: 100% !important;
+}
+.Property_Section_Card
+{
+    padding-bottom: 10px;
+}
+.Card_Slider_Section 
+{
+    width: 100% !important;
+}
+
+.Search_bar_Main_Container
+{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.searchBox {
+    display: unset;
+    
+}
+.Dropdown_Width
+{
+    width: 100%;
+    margin-bottom: 4px;
+}
+.Input_Width
+{
+    width: 100%;
+    margin-bottom: 4px;
+}
+.Button_Width_HomePage
+{
+    width: 100%;
+    text-align: center;
+}
+      
+}
+
+@media (min-width: 1200px)
+{
+
+
+.possession_staus_span
+{
+font-size: 13px;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+
+    .Real_estate_Icon_section
+    {
+        display: unset;
+        padding: 50px 0px;
+    }
+    .Banner_Section {
+      
+        height: 50vh;
+        background-size: 100% 100%;
+    }
+    
+    .slick-next
+    {
+        display: none !important;
+    }
+    
+.slick-prev{
+    display: none !important;
+}
+.Propery_Section_Tab_Section .nav-tabs a
+{
+font-size: 12px;
+}
+
+.Resale_Properties_Card_Section {
+    height: 150px;
+   
+}
+.Card_Slider_Section_Developer
+{
+    width: 100% !important;
+}
+.Property_Section_Card
+{
+    padding-bottom: 10px;
+}
+.Card_Slider_Section 
+{
+    width: 100% !important;
+}
+.Search_bar_Main_Container
+{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.searchBox {
+    display: unset;
+    
+}
+.Dropdown_Width
+{
+    width: 100%;
+}
+.Input_Width
+{
+    width: 100%;
+}
+.Button_Width_HomePage
+{
+    width: 100%;
+    text-align: center;
+}
+ 
+}
+
+
+
+@media (min-width: 1600px)
+{
+    .container {
+        max-width: calc(100vw - 500px);
+    }
+}
+
+@media (min-width: 1440px)
+{
+    .container {
+        max-width: calc(100vw - 300px);
+    }
+}

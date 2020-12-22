@@ -1,0 +1,616 @@
+
+
+.Project_Information_Section
+{
+  padding: 50px 0px;
+}
+
+.Project_Information_Section h1 {
+  padding-bottom: 8px;
+  font-size: 24px;
+ 
+  color: #000;
+  font-weight: 600;
+  line-height: 25px;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Project Title */
+.Project_Title_Information
+{
+  padding-bottom: 20px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.Project_Amount_Text 
+{
+
+  padding: 10px 0px;
+}
+.Project_Emi_Amount
+{
+  width: 30%;
+    background-color: #CB2027;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.Project_Button_Container
+{
+  display: flex;
+  padding-bottom: 10px;
+}
+.Project_Call_Back_Button
+{
+  width: 30%;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 7px;
+  margin-right: 5px;
+  padding: 10px;
+}
+.Project_Call_Back_Button img{
+  height: 30px;
+}
+
+/* End Project Title */
+
+
+
+/* Details section */
+
+.Project_Details_Section {
+  display: block;
+  background-image: linear-gradient(85deg,#fce5bd,#eafce3 100%);
+  border-bottom: #EBEBEB solid 1px;
+}
+.Project_Details_Section ul{
+  padding: 30px 0;
+  display: flex;
+}
+.Project_Details_Section ul li {
+  padding: 0 40px;
+  width: calc(25% - 2px);
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.Project_Details_Section ul:first-child li::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background: #CB2027;
+  width: 1px;
+  height: 32px;
+}
+.Project_Details_Section ul:not(:first-child) li::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background: #b2a489;
+  width: 1px;
+  height: 32px;
+}
+
+/* End Details Section */
+
+/* Project Details Information */
+
+.Project_Details_Information_Section
+{
+  padding: 50px 0;
+}
+
+.Project_Registration_container li {
+  padding: 5px 12px;
+  margin: 0 10px 15px 0;
+  display: inline-block;
+  font-size: 14px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.Project_Registration_container li  span {
+  display: block;
+  color: #000;
+  word-wrap: break-word;
+}
+
+.Whitebox
+{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 8px;
+  float: left;
+}
+.Whitebox .First_heading
+{
+  padding: 10px 15px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.Whitebox .First_heading h2{
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+
+}
+.Pdf_Container
+{
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Pdf_Size
+{
+  width: 100px;
+  display: inline-table;
+}
+
+
+.Whitebox .body_details {
+ 
+  overflow: hidden;
+}
+.Whitebox .body_details {
+  padding: 10px 15px;
+  display: block;
+  position: relative;
+}
+.Whitebox .body_details p {
+margin-bottom: 10px;
+}
+/* End Project Details Information */
+
+/* Form section */
+.Form_Box
+
+{
+  padding: 0 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 17px 0 rgba(0,0,0,0.08);
+  border: solid 1px #ededed;
+  background: #fff;
+  position: relative;
+}
+.Form_Box h5 {
+  padding: 12px 20px;
+  margin: 0 -20px 20px;
+  border-bottom: 1px solid #ededed;
+  font-size: 18px;
+  font-family: SourceSansPro-Semibold;
+  color: #000;
+}
+.call_button_size
+{
+  width: 100%;
+}
+.btn-success
+{
+  color: #fff;
+  background-color: #CB2027;
+  border-color:#CB2027;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #EFA421;
+  border-color: #EFA421;
+}
+
+.Assured_Section
+{
+    padding: 15px 15px 15px 110px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 17px 0 rgba(0,0,0,.08);
+    border: solid 1px #EFA421;
+    background-color: #fff;
+    position: relative;
+}
+
+.Assured_Section .picture_box {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  border-radius: 10px;
+  top: 0;
+  width: 115px;
+}
+.Assured_Section picture {
+  padding: 23px 8px 23px 158px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: -150px;
+  top: -55px;
+  width: 250px;
+  height: 236px;
+  border-radius: 50%;
+  border: solid 1px #EFA421;
+  background: #e2fff2;
+  z-index: 1;
+}
+.listBoxs li {
+  padding-left: 30px;
+  margin-bottom: 9px;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  color: #000;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fa-check
+{
+  color: #EFA421;
+  padding-right: 10px;
+}
+
+/* .position-sticky {
+  margin: 20px 0;
+  position: sticky;
+  z-index: 1;
+  top: 65px;
+  position: -webkit-sticky;
+} */
+
+.sticky-top
+{
+  top: 70px;
+}
+.body_details .nav-tabs .nav-link{
+  font-size: 12px !important;
+  font-weight: 600;
+  color: black !important;
+}
+/* End Form */
+
+/* Tab Section */
+
+.unitDetails_section
+{
+  padding: 0 15px;
+  margin-top: 10px;
+  display: block;
+  border: 1px solid #e3e3e3;
+  line-height: 35px;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  min-height: 150px;
+}
+.unitDetails_section ul li span {
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+
+.unitDetails_section ul li p {
+    display: inline-block;
+}
+
+.UnitDetails_More_Information
+{
+  padding: 5px 120px 0px;
+  margin: 0px -15px;
+  display: block;
+  position: relative;
+  border-top: 1px solid gainsboro;
+
+
+ 
+}
+.UnitDetails_More_Information picture
+{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 85px;
+  background: gainsboro;
+}
+
+.UnitDetails_More_Information li {
+  padding: 0;
+  margin: 0;
+  display: block;
+  border: 0;
+  line-height: 22px;
+  color: #666;
+}
+.UnitDetails_More_Information ul li strong {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+.UnitDetails_More_Information ul li:first-child {
+  color: #000;
+}
+
+.UnitDetails_More_Information .See_Details_Buton {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+.See_Details_Buton {
+  background: #eaeaea;
+  color: #000;
+  border: #eaeaea solid 1px;
+  transition: .5s;
+}
+/* End Tab Section */
+
+
+/* Resale Properties */
+
+
+
+.Resale_Properties_Section
+{
+  height: 140px;
+  width: 160px;
+  display: flex;
+}
+.Resale_Properties_Section img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.Resale_Properties_Description
+{
+padding: 10px 15px;
+}
+.Resale_Properties_Description small{
+  padding-bottom: 5px;
+}
+
+.Resale_Properties_Description p:first-child {
+  color: #EFA421;
+}
+.Resale_Properties_Description span:first-child {
+  color: red !important;
+  padding-left: 4px;
+}
+
+
+.Resale_Properties_Name_Container
+{
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.Resale_Properties_Name_Container h2{
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  color: white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+.Resale_Properties_Name_Container ul 
+{
+  padding-left: 20px;
+}
+.background_color_Resale_Properties
+{
+  background-color: #dcdcdc57;
+}
+/* .Sports_Amentites_Section ul{
+  display: flex;
+    flex-wrap: wrap;
+} */
+.Sports_Amentites_Section li{
+  display: flex;
+  padding-bottom: 10px;
+}
+.Sports_Amentites_Section img{
+ height: 25px;
+}
+
+.body_details .row
+{
+  padding: 10px 0;
+  border-bottom: 1px solid gainsboro;
+}
+
+.body_details .row:last-child
+{
+  padding: 10px 0;
+  border-bottom: none
+}
+.body_details h6
+{
+color: black;
+font-weight: 600;
+font-size: 14px;
+}
+.Sports_Amentites_Section span{
+  font-size: 14px;
+  padding-left: 5px;
+}
+.Map_Location_Card_Container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Map_Location_Card_Container h6{
+  color: #EFA421;
+  font-size: 14px;
+font-weight: 600;
+}
+
+.Destination_Card_Main_Container
+{
+  width: 273px;
+    background: #fff;
+    border-radius: 8px;
+    margin-right: 25px;
+    border: solid 1px #ebebeb;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.04);
+}
+
+.Desination_Card_Inner_Container
+{
+  
+  border: 1px solid red;
+  padding: 9px;
+  margin: 10px;
+  text-align: center;
+}
+.Destination_Card_Main_Container .Location_Card_Details{
+  text-align: center;
+  padding-bottom: 10px;
+  color: gray;
+}
+
+
+.About_Image_Main_Container
+{
+height: 150px;
+width: 150px;
+background-color: gray;
+position: relative;
+}
+.About_Image_Main_Container img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Total_Project_Details
+{
+  display: flex;
+}
+.Total_Project_Details li:last-child
+{
+  padding-left: 30px;
+}
+.Total_Project_Details_Paragraph p{
+padding: 10px 20px 0px 0px;
+  text-align: justify;
+}
+
+.More_Details_Button
+{
+  display: flex;
+  justify-content: center;
+}
+.More_Details_Button a{
+  color: #EFA421 !important;
+}
+.More_Details_Button span{
+  padding-left: 10px;
+}
+
+#Project_Information_Section .carousel-item
+{
+  max-height:400px;
+}
+
+/* Carousel section */
+#Project_Information_Section .carousel-item::after
+{
+  position: absolute;
+  content: '';
+  background-color: black;
+  width:100%;
+
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+/* End Carousel Section */
+
+
+/* End Resale Properties */
+
+
+
+
+
+ /* Inner Nav Media query */
+ @media only screen and (min-width: 360px) and (max-width: 640px) {
+  .Project_Details_Section ul {
+    padding: 15px 0;
+    margin: 0 -15px;
+    display: block;
+    overflow: hidden;
+}
+.Project_Details_Section ul li {
+  padding: 0 15px 0 30px;
+  width: auto;
+  line-height: 26px;
+  text-align: left;
+}
+.UnitDetails_More_Information ul
+{
+  position: absolute;
+}
+.See_Details_Buton
+{
+  display: none;
+}
+
+
+ }
+
+ @media only screen
+
+ and (min-device-width: 360px)
+
+ and (max-device-width: 812px)
+
+ {
+
+  .Map_Location_Card_Container h6,h6{  
+    font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  }
+  .Destination_Card_Main_Container {
+    width: unset;
+    background: #fff;
+    border-radius: 8px;
+    margin-right: unset;
+    border: solid 1px #ebebeb;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.04);
+}
+  
+
+}

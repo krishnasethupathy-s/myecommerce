@@ -1,0 +1,148 @@
+
+.Header_Inner_Background .navbar {
+
+ height: 70px;
+ z-index: 100;
+}
+.bg-light {
+  background-color: #f8f8f8 !important;
+}
+.Header_Inner_Background .navbar-light .navbar-nav .nav-link {
+  color: #CB2027 !important;
+  font-size: 16px;
+    font-weight: 600;
+}
+
+.Header_Inner_Background .nav-link {
+  color: #CB2027 !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Header_Inner_Background .navbar-light .navbar-toggler {
+background-color: white !important;
+margin-right: 10px;
+}
+
+.btn-outline-success {
+  color: #ffffff !important;
+  border-color: #28a745;
+}
+
+/* TopNavbar */
+
+.darkHeader{
+    
+  position: fixed;
+  top:0;
+  width: 100%;   
+  left: 0;
+  background-color: #f8f8f8;
+  z-index: 9999999;
+}  
+/* End TopNavbar */
+
+/* Brand Image */
+
+.navbar-brand img{
+  height: 60px;
+
+}
+ .navbar-brand h6 {
+  color: white !important
+}
+
+/* Brand Image */
+
+/* Nav-Item */
+
+.dropdown-item.active, .dropdown-item:active
+{
+  color: #fff;
+  text-decoration: none;
+  background-color: #fc4250;
+}
+.dropdown-item a
+{
+  color: black !important;
+}
+.Profile_Nav_DropDown .dropdown-menu
+{
+  right: 0px !important;
+  left: unset !important;
+  padding-right: 0px !important;
+}
+.dropdown-menu
+
+{
+  padding-right: 0px !important;
+}
+.navbar-collapse
+{
+  background-color: #f8f8f8;
+}
+
+/* End Nav-Item */
+
+/* Button Container */
+
+.Hiring_Button:hover {
+  color: white !important;
+  background-color: black !important;
+  border-color:  #fc4250;
+}
+
+.Hiring_Button {
+  color: #fff ;
+  background-color: #fc4250;
+  border-color:  #fc4250;
+}
+
+.user_icon_color
+{
+  color:#CB2027 !important
+}
+.Navbar_ProfileImage
+{
+  width: 30px;
+}
+/* End Button Container */
+
+
+  /* Inner Nav Media query */
+  @media only screen and (min-width: 360px) and (max-width: 640px) {
+    .navbar-nav
+    {
+      text-align: center;
+    
+    }
+    .navbar-brand img{
+    margin-left: 10px;
+      
+    }
+    .form-inline {
+      justify-content: center;
+      }
+      .dropdown-item
+      {
+        text-align: center;
+      }
+  }
+
+  @media only screen and (min-width: 320px) and (max-width:568px) {
+    .navbar-nav
+{
+  text-align: center;
+
+}
+
+.form-inline {
+justify-content: center;
+}
+.dropdown-item
+{
+  text-align: center;
+}
+  }
+
+  /* End Nav Media Query */

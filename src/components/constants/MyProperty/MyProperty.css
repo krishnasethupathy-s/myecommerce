@@ -1,0 +1,68 @@
+
+
+
+.myproperty-heading h6{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.my-property-list
+{
+    padding: 30px 0px;
+}
+.my-property-list .card
+{
+    margin-bottom: 10px;
+}
+
+.my-property-list .card h5 {
+    font-size: 16px;
+    font-family: SourceSansPro-Semibold;
+    color: #000;
+    white-space: nowrap;
+    padding-bottom: 5px;
+}
+
+.my-property-list .card span {
+    font-size: 12px;
+    font-family: SourceSansPro-Semibold;
+    color: #000;
+    white-space: nowrap;
+    font-weight: bold;
+    
+}
+
+.progressBar {
+    display: block;
+    height: 5px;
+    background: #f1f1f1;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progressBar .span_width_1 {
+    height: 5px;
+    background: #ffb100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+
+
+.progressBar .span_width_2 {
+    height: 5px;
+    background: #ffb100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    width: 50px;
+}
+
+.my-property-list .card-img-top
+{
+    height: 220px;
+}
